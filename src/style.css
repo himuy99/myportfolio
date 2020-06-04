@@ -75,8 +75,8 @@ footer {
   background-size: 100%;
 }
 
-.gradButton a {
-color: white;
+.gradButton a, .gradButton a:visited {
+  color: white;
 }
 
 /*Header*/
