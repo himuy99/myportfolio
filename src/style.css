@@ -75,6 +75,10 @@ footer {
   background-size: 100%;
 }
 
+.gradButton a {
+color: white;
+}
+
 /*Header*/
 
 header .left-container {
@@ -166,7 +170,7 @@ nav a:hover {
 #goUp {
   text-align: center;
   height: 20px;
-  background-image: url("/img/blue-bar.png");
+  background-image: url("../img/blue-bar.png");
   position: sticky;
   top: 0;
   z-index: 9999;
@@ -242,7 +246,7 @@ nav a:hover {
   padding-top: 40px;
   height: 100%;
   width: 100%;
-  background-image: url("/img/works-bg.png");
+  background-image: url("../img/works-bg.png");
   background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -312,7 +316,7 @@ nav a:hover {
 
 #inner-contact {
   padding-top: 40px;
-  background-image: url("/img/contact-bg.png");
+  background-image: url("../img/contact-bg.png");
   background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
