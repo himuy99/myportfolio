@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Harada Larissa Yumi | Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./src/glider.css">
+    <!--CSS File-->
+    <link rel="stylesheet" href="src/style.css">
+    <!--Adobe Fonts-->
+    <link rel="stylesheet" href="https://use.typekit.net/ckj8ewb.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="./src/glider.js"></script>
+  </head>
+  <body>
+    <div class="fullcontainer">
+      <a name="top"></a>
+      <header>
+        <div class="right-container">
+          <div id="my-name"><img src="./img/name.png" /></div>
+          <div id="logo"><img src="./img/portfolio-logo.png" /></div>
+        </div>
+        <div class="left-container">
+          <nav>
+            <ul>
+              <li><a href="#about"><img src="./img/item-bullet.png"/>About</a></li>
+              <li><a href="#works"><img src="./img/item-bullet.png"/>Works</a></li>
+              <li><a href="#social"><img src="./img/item-bullet.png"/>SNS</a></li>
+              <li><a href="#contact"><img src="./img/item-bullet.png"/>Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div id="goUp">
+        <a href="#top"><img src="img/up-button.png" /></a>
+      </div>
+      <!--About Section-->
+      <div id="about" name="about">
+        <div class="left-container">
+          <img src="img/profile-picture.png" />
+        </div>
+        <div class="right-container">
+          <h1>自分について</h1>
+          <p>山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら山路を登りながら</p>
+          <a href="./src/about.html"><button class="gradButton">もと見る</button></a>
+        </div>
+      </div>
+      <!--Works Section-->
+      <div id="works" name="works">
+        <h1>自分の作品</h1>
+        <!-- <img src="./img/fake-carousel.png" /> -->
+        <div class="work-inner">
+          <div class="glider-contain">
+            <div class="glider">
+              <div><img class="gallery-item" src="./img/Works/game-cover.jpg"></div>
+              <div><img class="gallery-item" src="./img/Works/water-fairy.jpg"></div>
+              <div><img class="gallery-item" src="./img/Works/blood-donation.jpg"></div>
+              <div><img class="gallery-item" src="./img/Works/aiko-mei.jpg"></div>
+            </div>
+          
+            <button aria-label="Previous" class="glider-prev"><img src="./img/left-button.png" /></button>
+            <button aria-label="Next" class="glider-next"><img src="./img/right-button.png" /></button>
+            <div role="tablist" class="dots"></div>
+          </div>
+        </div>
+        <a href="./src/works.html"><button class="gradButton">作品一覧</button></a>
+      </div>
+      <!--Social Section-->
+      <div id="social" name="social">
+        <h1>SNS</h1>
+        <ul>
+          <li class="tooltip"><a href=""><img src="./img/pixiv_logo_icon.png" /></a><span class="tooltiptext">Pixiv</span></li>
+          <li class="tooltip"><a href=""><img src="./img/deviantart.png" /></a><span class="tooltiptext">DeviantArt</span></li>
+          <li class="tooltip"><a href=""><img src="./img/instagram.png" /></a><span class="tooltiptext">Instagram</span></li>
+          <li class="tooltip"><a href=""><img src="./img/facebook.png" /></a><span class="tooltiptext">Facebook</span></li>
+        </ul>
+      </div>
+      <!--Contact Section-->
+      <div id="contact" name="contact">
+        <div id="inner-contact">
+          <h1>お問い合わせ</h1>
+          <p>連絡はこちらのフォームからでお願いします。</p>
+          <form class="contact-form">
+            <label for="last-name">姓</label>
+            <input type="text" id="last-name" name="last-name" placeholder="姓">
+            <label for="first-name">名</label>
+            <input type="text" id="first-name" name="first-name" placeholder="名">
+            <label for="user-email">メール</label>
+            <input type="email" name="user-email" placeholder="メール">
+            <label for="contact-msg">メッセージ</label>
+            <textarea id="contact-msg" name="contact-msg" placeholder="メッセージをお書きください"></textarea>
+            <button type="submit" class="gradButton">送信</button>
+          </form>
+        </div>
+        <footer>
+          <p>Harada Larissa Yumi</p>
+          <p>e-mail: s_harada19@oscd.jp</p>
+        </footer>
+      </div>
+    </div>
+    <script src="src/glideractivate.js"></script>
+  </body>
+</html>

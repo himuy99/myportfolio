@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.gallery-column {
+  box-sizing: border-box;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.work-item {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.work-filler1 {
+  height: 50px;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  background-image:url("../img/header-bg.png");
+  background-size: 100%;
+}
+
+.work-filler2 {
+  height: 100px;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  background-image:url("../img/header-bg.png");
+  background-size: 100%;
+}
