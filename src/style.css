@@ -417,7 +417,7 @@ textarea[name=contact-msg] {
 }
 
 /*Media Queries*/
-@media(max-width:900px){
+@media screen and (max-width: 900px){
 
   .left-container, .right-container {
     float: none;
@@ -529,9 +529,13 @@ textarea[name=contact-msg] {
     width: 80%;
   }
 
+  #mep_0 {
+    display: block;
+  }
+
 }
 
-@media(max-width:600px){
+@media screen and (max-width: 600px){
   /*Header*/
 
   #logo img {
@@ -540,14 +544,38 @@ textarea[name=contact-msg] {
     width: 100%;
   }
 
-    /*Nav Menu*/
-    nav li {
-      width: 250px;
-      height: auto;
-      margin: auto;
-    }
+  /*Nav Menu*/
+  nav li {
+    width: 250px;
+    height: auto;
+    margin: auto;
+  }
+
+  nav li img {
+    margin-right: 10px;
+  }
   
-    nav li img {
-      margin-right: 10px;
-    }
+  #mep_0 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 400px){
+
+  h1 {
+    font-size: 40px;
+  }
+
+  #about img {
+    width: 200px;
+  }
+
+  #social img {
+    width: 3em;
+    margin-top: 10px;
+  }
+  
+  #mep_0 {
+    display: block;
+  }
 }
